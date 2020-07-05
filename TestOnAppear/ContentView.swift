@@ -10,7 +10,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+		TabView {
+			WasteView()
+			.tabItem({
+				Image(systemName: "arrow.3.trianglepath")
+				Text("Waste Wizard")
+			})
+
+			TransitView()
+			.tabItem({
+				Image(systemName: "location.circle")
+				Text("TTC Wizard")
+			})
+		}
     }
 }
 

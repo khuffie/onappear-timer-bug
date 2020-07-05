@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		796C95C124B220E8007225CA /* TransitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796C95C024B220E8007225CA /* TransitViewModel.swift */; };
 		79CEF7AD24B12DED00873D3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CEF7AC24B12DED00873D3D /* AppDelegate.swift */; };
 		79CEF7AF24B12DED00873D3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CEF7AE24B12DED00873D3D /* SceneDelegate.swift */; };
 		79CEF7B124B12DED00873D3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CEF7B024B12DED00873D3D /* ContentView.swift */; };
 		79CEF7B324B12DF000873D3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79CEF7B224B12DF000873D3D /* Assets.xcassets */; };
 		79CEF7B624B12DF000873D3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79CEF7B524B12DF000873D3D /* Preview Assets.xcassets */; };
 		79CEF7B924B12DF000873D3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79CEF7B724B12DF000873D3D /* LaunchScreen.storyboard */; };
+		79CEF7C124B12E0100873D3D /* WasteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CEF7C024B12E0100873D3D /* WasteView.swift */; };
+		79CEF7C324B12E4300873D3D /* TransitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CEF7C224B12E4300873D3D /* TransitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		796C95C024B220E8007225CA /* TransitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitViewModel.swift; sourceTree = "<group>"; };
 		79CEF7A924B12DED00873D3D /* TestOnAppear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOnAppear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79CEF7AC24B12DED00873D3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79CEF7AE24B12DED00873D3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		79CEF7B524B12DF000873D3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		79CEF7B824B12DF000873D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79CEF7BA24B12DF000873D3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79CEF7C024B12E0100873D3D /* WasteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasteView.swift; sourceTree = "<group>"; };
+		79CEF7C224B12E4300873D3D /* TransitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				79CEF7B724B12DF000873D3D /* LaunchScreen.storyboard */,
 				79CEF7BA24B12DF000873D3D /* Info.plist */,
 				79CEF7B424B12DF000873D3D /* Preview Content */,
+				79CEF7C024B12E0100873D3D /* WasteView.swift */,
+				79CEF7C224B12E4300873D3D /* TransitView.swift */,
+				796C95C024B220E8007225CA /* TransitViewModel.swift */,
 			);
 			path = TestOnAppear;
 			sourceTree = "<group>";
@@ -148,6 +157,9 @@
 			files = (
 				79CEF7AD24B12DED00873D3D /* AppDelegate.swift in Sources */,
 				79CEF7AF24B12DED00873D3D /* SceneDelegate.swift in Sources */,
+				796C95C124B220E8007225CA /* TransitViewModel.swift in Sources */,
+				79CEF7C324B12E4300873D3D /* TransitView.swift in Sources */,
+				79CEF7C124B12E0100873D3D /* WasteView.swift in Sources */,
 				79CEF7B124B12DED00873D3D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
